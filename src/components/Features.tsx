@@ -1,26 +1,6 @@
+import { features } from "../consts";
 import PrimaryBtn from "./PrimaryBtn";
 import SubHeader from "./SubHeader";
-
-const features = [
-  {
-    name: "Feature №1",
-    title: "Lorem ipsum dolor sit amet.",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.",
-  },
-  {
-    name: "Feature №2",
-    title: "Lorem ipsum dolor sit amet.",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.",
-  },
-  {
-    name: "Feature №3",
-    title: "Lorem ipsum dolor sit amet.",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.",
-  },
-];
 
 export default function Features() {
   return (

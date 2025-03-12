@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
-interface WrapperProps {
+type WrapperProps = {
   children: ReactNode;
-}
+};
 
 export default function Wrapper({ children }: WrapperProps) {
   return (

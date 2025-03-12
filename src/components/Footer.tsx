@@ -1,24 +1,4 @@
-const footerLinks = {
-  Links: [
-    { name: "FAQ", href: "#" },
-    { name: "Help", href: "#" },
-    { name: "Support", href: "#" },
-  ],
-  Legal: [
-    { name: "Terms", href: "#" },
-    { name: "Privacy", href: "#" },
-  ],
-  Social: [
-    { name: "Facebook", href: "#" },
-    { name: "Linkedin", href: "#" },
-    { name: "Twitter", href: "#" },
-  ],
-  Company: [
-    { name: "Official Blog", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Contact", href: "#" },
-  ],
-};
+import { footerLinks } from "../consts";
 
 export default function Footer() {
   return (

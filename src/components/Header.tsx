@@ -13,6 +13,8 @@ export default function Header() {
   const [toggleClass, setToggleClass] = useState("text-white");
   const [menuVisible, setMenuVisible] = useState(false);
 
+  console.log(scrollPos);
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
@@ -51,7 +53,7 @@ export default function Header() {
         <div className="pl-4 flex items-center">
           <a
             className={`toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl ${toggleClass}`}
-            href="/"
+            href="/land-1/"
           >
             <svg
               className="h-8 fill-current inline"

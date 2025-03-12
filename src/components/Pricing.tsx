@@ -1,26 +1,6 @@
+import { pricing } from "../consts";
 import PrimaryBtn from "./PrimaryBtn";
 import SubHeader from "./SubHeader";
-
-const pricing = [
-  {
-    name: "Free",
-    features: ["50 Image", "500 Credits", "50GB Cloud Storage"],
-    price: "£0",
-    span: "/ per user",
-  },
-  {
-    name: "Basic",
-    features: ["150 Image", "2500 Credits", "250GB Cloud Storage"],
-    price: "£49.99",
-    span: "/ per user",
-  },
-  {
-    name: "Pro",
-    features: ["500 Image", "5000 Credits", "500GB Cloud Storage"],
-    price: "£99.99",
-    span: "/ per user",
-  },
-];
 
 export default function Pricing() {
   return (
